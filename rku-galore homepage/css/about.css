@@ -1,0 +1,49 @@
+.about-sec{
+    color: #333333;
+    margin-top:20px;
+    margin-left: 10%;
+    width: 80%;
+}
+.about-sec p{
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin: 0;
+}
+.about-sec .pheading{
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin: 30px 0 0 0;
+}
+.about-sec a{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+.about-sec .btn{
+    background-color: rgb(222, 50, 6);
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    height: 40px;
+    width: 160px;
+    text-align: center;
+    align-content: center;
+    font-size: larger;
+    margin-top: 30px;
+}
+.about-sec .about-para{
+    margin: 20px 0 20px 0;
+    text-align: justify;
+}
+.btn:hover{
+    background-color: rgb(203, 46, 7);
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width:770px){
+    .about-sec p,.about-sec .pheading,.about-sec a{
+        font-size: 4vw;
+    }
+}

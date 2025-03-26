@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+    width: 70%;
+    height: fit-content;
+    border: 10px solid rgba(164, 144, 118, 0.307);
+    border-radius: 30px;
+    margin: 30px auto;
+}
+.header{
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+}
+.nav{
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    margin:50px auto;
+}
+
+.nav ul{
+    display: flex;
+    padding-left: 0;
+    width: 100%;
+    margin-top: 60px;
+}
+li{
+    list-style: none;
+    border-right: 2px solid black;
+    font-size: 18px;
+    margin: 15px 0 0 auto;
+    padding-right: 35px;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cmt{
+    border-right: none;
+}
+.logo{
+    width: 100%;
+    height: 130px;
+    margin: 50px auto;
+}
+.logo img{
+    width: 100%;
+}
+.header a{
+    color: black;
+    text-decoration: none;
+}
+.active{
+    font-weight: bolder;
+}
+.footer p{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(222, 50, 6);
+    margin: 20px 0 0 600px;
+}
+
+/* for mobile */
+@media(max-width:770px ) {
+
+    .main{
+        width: 100%;
+        border: 3px solid rgba(164, 144, 118, 0.307);
+        margin-top: 20px;
+        margin-bottom: 0;
+        height: fit-content;
+    }
+    .header{
+        width: 90%;
+        margin-bottom: 10px;
+        height: fit-content;
+    }
+    .logo{
+        margin: 0;
+        padding: 0;
+        height: 15%;
+        margin-left: 15px;
+        margin-top: 5px;
+        width: 90%;
+        align-self: center;
+        align-content: center;
+    }
+    .nav ul{
+        margin-top: 0;
+        padding-top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav{
+        margin: 0;
+        padding: 0;
+        height: 20%;
+    }
+    li{
+        border-right: 0.7px solid black;
+        font-size: 2vw;
+        padding-right: 3%;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .footer p{
+        margin: 0;
+        font-size: 7px;
+    }
+    .footer{
+        font-size: 1.5vw;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 7px;
+        padding-bottom: 50px;
+    }
+}

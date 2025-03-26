@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg {
+            height: 630px;
+            width: 1300px;
+            background-image: url("bg.png");
+            background-size: cover;
+
+        }
+
+        nav {
+            background-color: rgba(57, 66, 66, 0.2);
+            height: 54px;
+            width: 1300px;
+        }
+
+        .logo {
+            display: inline-block;
+            color: rgb(189, 87, 4);
+            font-size: 30px;
+            margin-top: 7px;
+            margin-left: 10px;
+        }
+
+        li {
+            list-style: none;
+            display: inline-block;
+            color: aliceblue;
+            margin-left: 100px;
+
+        }
+
+        li:hover {
+            color: rgb(189, 87, 4);
+        }
+
+        ul {
+            display: inline-block;
+        }
+
+        .typename {
+            display: inline-block;
+            margin-left: 70px;
+            margin-top: 15px;
+        }
+
+        button {
+            background-color: rgb(189, 87, 4);
+            border-radius: 5px;
+
+
+            padding: 3px;
+        }
+
+        .mainpart {
+            height: 574px;
+            width: 1300px;
+
+        }
+
+        .textpart {
+            height: 400px;
+            width: 60%;
+            position: relative;
+            top: 100px;
+            left: 50px;
+        }
+
+        .loginpart {
+            height: 35 0px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 3%;
+            width: 20%;
+            position: relative;
+            bottom: 300px;
+            left: 980px;
+        }
+
+        span {
+            color: rgb(189, 87, 4);
+        }
+
+        h1 {
+            color: aliceblue;
+            font-size: 40px;
+        }
+
+        .text {
+            font-size: 20px;
+            color: white;
+        }
+
+        .join {
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 100px;
+            margin-top: 25px;
+        }
+
+        .join:hover {
+            background-color: rgb(255, 175, 4);
+        }
+
+        .loginh {
+            background-color: white;
+            width: 230px;
+            padding: 7px;
+            font-weight: bolder;
+            color: rgb(189, 87, 4);
+            font-size: 15px;
+            font-weight: 500;
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+
+        .email {
+            background-color: transparent;
+            border-top: transparent;
+            border-left: transparent;
+            border-right: transparent;
+            margin-left: 15px;
+            width: 225px;
+            color: aliceblue;
+            margin-top: 30px;
+            padding: 5px;
+        }
+
+        .password {
+            background-color: transparent;
+            border-top: transparent;
+            border-left: transparent;
+            border-right: transparent;
+            color: aliceblue;
+            margin-left: 15px;
+            width: 225px;
+            margin-top: 30px;
+            padding: 5px;
+        }
+
+        .login {
+            background-color: rgb(189, 87, 4);
+            width: 230px;
+            padding: 7px;
+            font-weight: bolder;
+            color: black;
+            font-size: 15px;
+            font-weight: 500;
+            margin-top: 25px;
+            margin-left: 15px;
+        }
+
+        .login:hover {
+            background-color: rgb(255, 175, 4);
+        }
+
+        .u-login {
+            color: aliceblue;
+            margin-top: 25px;
+            margin-left: 50px;
+        }
+
+        pre {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="bg">
+        <header>
+            <nav>
+
+                <div class="logo">PraRoz</div>
+                <ul>
+                    <li><a href="www.google.com"></a></li>
+                    <li>ABOUT</li>
+                    <li>SERVICE</li>
+                    <li>DESIGN</li>
+                    <li>Contact</li>
+                </ul>
+                <div class="typename">
+                    <input type="text" placeholder="Type to Search">
+                    <button>Search</button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="mainpart">
+                <div class="textpart">
+                    <h1>Web Design & <br><span>Development</span><br> Course</h1>
+                    <div class="text">Web design is a specilisation of the design stream. They also use
+                        HTML,CSS,<br>editing softwere, markup validators etc. to create design elements. </div>
+                    <div class="btnjoin">
+                        <button class="join">JOIN US</button>
+                    </div>
+                </div>
+
+
+                <div class="loginpart">
+                    <form action="formdata.txt" method="get">
+                    <button class="loginh">Login Here</button>
+                    <input class="email" type="email" name="email" placeholder="Enter Email Here">
+                    <input class="password" type="password" name="password" placeholder="Enter password Here">
+                    <button class="login" type="submit">Login</button>
+                    <div class="u-login">Don't have an account?<br><span class="span">
+                            <pre>     Sign up</pre>
+                        </span> here</div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
